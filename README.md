@@ -2,10 +2,14 @@
 
 This script can be used to batch process a directory of audio files, located in `input/`, and save the new videos in the `output` directory.
 
+\*Requires FFmpeg installed
+
 ## Instructions
 
 ### Initial setup
 
+- Install [FFmpeg](https://www.ffmpeg.org/)
+  - Easiest method for OSX users with [Homebrew](https://brew.sh/) installed is `brew install ffmpeg`
 - Create two directories within the **ffmpeg-audio-to-video** project root
   - `input/`
   - `output/`
