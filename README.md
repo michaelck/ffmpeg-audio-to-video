@@ -1,6 +1,6 @@
 # FFmpeg Batch Convert Audio (mp3) to Video (mov)
 
-This script can be used to batch process a directory of audio files, located in `input/`, and save the new videos in the `output` directory.
+This script can be used to batch process a directory of audio files, located in `input/`, and save the new videos in the `output/` directory.
 
 \*Requires FFmpeg installed
 
@@ -13,6 +13,7 @@ This script can be used to batch process a directory of audio files, located in 
 - Create two directories within the **ffmpeg-audio-to-video** project root
   - `input/`
   - `output/`
+- Place all of your audio in the new `input/` (or alter the script to point to your target input directory)
 
 #### Optional
 
