@@ -2,6 +2,9 @@
 
 This script can be used to batch process a directory of audio files, located in `input/`, and save the new videos in the `output/` directory.
 
+**Why would I want to do this?**
+There's a certain video hosting platform that will auto-caption and/or auto generate .srt files from transcripts. I was curious whether it might be a decent solution for captioning audio files. The only issue was getting them uploaded without manually converting the audio to video.
+
 \*Requires FFmpeg installed
 
 ## Instructions
